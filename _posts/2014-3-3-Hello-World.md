@@ -18,7 +18,7 @@ Numbers come in two basic kinds, Fields and Methods<br />
 
 When we produce an instance from a class, that instance gets its own field that are different from the fields of all other instances and class.
 
-**Encapsulation**<br />
+**Encapsulation**<br /> 
 The fields of an object/instance should only be read and written by methods of that object class.
 Following the encapsulation principle makes sure that our code is neatly and clearly modularized allowing us to easily make changes to add features and fix bugs.
 Failing to follow the principle, data in our code can easily be read and written from all different places. Therefore the code will be extremely difficult to understand, fix and modify. 
