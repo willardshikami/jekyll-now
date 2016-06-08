@@ -3,14 +3,15 @@ layout: post
 title: Principles of Object Oriented Programming
 ---
 
-ENCAPSULATION
-This is one of the four fundamental OOP concepts. The other three are inheritance, polymorphism, and abstraction.
-Encapsulation in Java is a mechanism of wrapping the data (variables) and code acting on the data (methods) together as as single unit. In encapsulation the variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class, therefore it is also known as data hiding.
-To achieve encapsulation in Java
-Declare the variables of a class as private.
-Provide public setter and getter methods to modify and view the variables values.
-Example:
-Below given is an example that demonstrates how to achieve Encapsulation in Java:
+**ENCAPSULATION**<br />
+This is one of the four fundamental OOP concepts. The other three are inheritance, polymorphism, and abstraction.<br />
+Encapsulation in Java is a mechanism of wrapping the data (variables) and code acting on the data (methods) together as as single unit. In encapsulation the variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class, therefore it is also known as data hiding.<br />
+To achieve encapsulation in Java<br />
+Declare the variables of a class as private.<br />
+Provide public setter and getter methods to modify and view the variables values.<br />
+Example:<br />
+Below given is an example that demonstrates how to achieve Encapsulation in Java:<br />
+
 /* File name : EncapTest.java */
 public class EncapTest{
 
@@ -42,6 +43,7 @@ public class EncapTest{
       idNum = newId;
    }
 }
+
 The public setXXX() and getXXX() methods are the access points of the instance variables of the EncapTest class. Normally, these methods are referred as getters and setters. Therefore any class that wants to access the variables should access them through these getters and setters.
 The variables of the EncapTest class can be accessed as below::
 /* File name : RunEncap.java */
@@ -58,24 +60,27 @@ public class RunEncap{
 }
 This would produce the following result:
 Name : James Age : 20
-Benefits of Encapsulation:
-The fields of a class can be made read-only or write-only.
-A class can have total control over what is stored in its fields.
-The users of a class do not know how the class stores its data. A class can change the data type of a field and users of the class do not need to change any of their code.
 
-ABSTRACTION
+**Benefits of Encapsulation:**<br />
++The fields of a class can be made read-only or write-only.
++A class can have total control over what is stored in its fields.
++The users of a class do not know how the class stores its data. A class can change the data type of a field and users of the class do not need to change any of their code.
+
+**ABSTRACTION**<br />
 Abstraction is the quality of dealing with ideas rather than events. for example when you consider the case of e-mail, complex details such as what happens soon you send an e-mail, the protocol your email server uses are hidden from the user, therefore to send an e-mail you just need to type the content, mention the address of the receiver and click send.
-like wise in Object oriented programming Abstraction is a process of hiding the implementation details from the user, only the functionality will be provided to the user. In other words user will have the information on what the object does instead of how it does it.
-In Java Abstraction is achieved using Abstract classes, and Interfaces.
-Abstract Class 
-A class which contains the abstract keyword in its declaration is known as abstract class.
-Abstract classes may or may not contain abstract methods ie., methods with out body ( public void get(); )
-But, if a class have at least one abstract method, then the class must be declared abstract.
-If a class is declared abstract it cannot be instantiated.
+like wise in Object oriented programming Abstraction is a process of hiding the implementation details from the user, only the functionality will be provided to the user. In other words user will have the information on what the object does instead of how it does it.<br />
+In Java Abstraction is achieved using Abstract classes, and Interfaces.<br />
+**Abstract Class** <br />
+A class which contains the abstract keyword in its declaration is known as abstract class.<br />
+Abstract classes may or may not contain abstract methods ie., methods with out body ( public void get(); )<br />
+But, if a class have at least one abstract method, then the class must be declared abstract.<br />
+If a class is declared abstract it cannot be instantiated.<br />
 To use an abstract class you have to inherit it from another class, provide implementations to the abstract methods in it.
-If you inherit an abstract class you have to provide implementations to all the abstract methods in it.
-Example
-This section provides you an example of the abstract class to create an abstract class just use the abstract keyword before the class keyword, in the class declaration .
+If you inherit an abstract class you have to provide implementations to all the abstract methods in it.<br />
+Example<br />
+
+This section provides you an example of the abstract class to create an abstract class just use the abstract keyword before the class keyword, in the class declaration.<br />
+
 /* File name : Employee.java */
 public abstract class Employee
 {
@@ -120,8 +125,10 @@ public abstract class Employee
      return number;
    }
 }
-You can observe that except abstract methods the Employee class is same as normal class in Java. The class is now abstract, but it still has three fields, seven methods, and one constructor.
-Now you can try to instantiate the Employee class as shown below:
+
+You can observe that except abstract methods the Employee class is same as normal class in Java. The class is now abstract, but it still has three fields, seven methods, and one constructor.<br />
+Now you can try to instantiate the Employee class as shown below:<br />
+
 /* File name : AbstractDemo.java */
 public class AbstractDemo
 {
@@ -134,6 +141,7 @@ public class AbstractDemo
       e.mailCheck();
     }
 }
+
 When you compile the above class, it gives you the following error:
 Employee.java:46: Employee is abstract; cannot be instantiated
       Employee e = new Employee("George W.", "Houston, TX", 43);
@@ -174,7 +182,9 @@ public class Salary extends Employee
       return salary/52;
    }
 }
-Here, you cannot instantiate the Employee class, but you can instantiate the Salary Class, and using this instance you can access the all the three fields and seven methods of Employee class as shown below.
+
+Here, you cannot instantiate the Employee class, but you can instantiate the Salary Class, and using this instance you can access the all the three fields and seven methods of Employee class as shown below.<br />
+
 /* File name : AbstractDemo.java */
 public class AbstractDemo
 {
@@ -200,13 +210,15 @@ ailing check to Mohd Mohtashim with salary 3600.0
 Call mailCheck using Employee reference--
 Within mailCheck of Salary class
 ailing check to John Adams with salary 2400.
-Abstract Methods:
-If you want a class to contain a particular method but you want the actual implementation of that method to be determined by child classes, you can declare the method in the parent class as abstract.
-abstract keyword is used to declare the method as abstract.
-You have to place the abstract keyword before the method name in the method declaration.
-An abstract method contains a method signature, but no method body.
+
+**Abstract Methods:**<br />
+If you want a class to contain a particular method but you want the actual implementation of that method to be determined by child classes, you can declare the method in the parent class as abstract.<br />
+abstract keyword is used to declare the method as abstract.<br />
+You have to place the abstract keyword before the method name in the method declaration.<br />
+An abstract method contains a method signature, but no method body.<br />
 Instead of curly braces an abstract method will have a semoi colon ( ; ) at the end.
-Below given is an example of the abstract method.
+Below given is an example of the abstract method.<br />
+
 public abstract class Employee
 {
    private String name;
@@ -235,10 +247,11 @@ public class Salary extends Employee
 
    //Remainder of class definition
 
-INHERITANCE
-Inheritance can be defined as the process where one class acquires the properties (methods and fields) of another. With the use of inheritance the information is made manageable in a hierarchical order.
-The class which inherits the properties of other is known as subclass (derived class, child class) and the class whose properties are inherited is known as superclass (base class, parent class).
-extends Keyword
+**INHERITANCE**
+Inheritance can be defined as the process where one class acquires the properties (methods and fields) of another. With the use of inheritance the information is made manageable in a hierarchical order.<br />
+The class which inherits the properties of other is known as subclass (derived class, child class) and the class whose properties are inherited is known as superclass (base class, parent class).<br />
+
+**extends Keyword**<br />
 extends is the keyword used to inherit the properties of a class. Below given is the syntax of extends keyword.
 class Super{
    .....
@@ -250,7 +263,8 @@ class Sub extends Super{
    .....
 
 }
-Sample Code
+
+**Sample Code**<br />
 Below given is an example demonstrating Java inheritance. In this example you can observe two classes namely Calculation and My_Calculation.
 Using extends keyword the My_Calculation inherits the methods addition() and Subtraction() of Calculation class.
 Copy and paste the program given below in a file with name My_Calculation.java
@@ -307,11 +321,12 @@ It is used to invoke the superclass constructor from subclass.
 Differentiating the members
 If a class is inheriting the properties of another class. And if the members of the superclass have the names same as the sub class, to differentiate these variables we use super keyword as shown below.
 super.variable
-super.method();
-Sample Code
+super.method();<br />
+
+**Sample Code**<br />
 This section provides you a program that demonstrates the usage of the super keyword.
-In the given program you have two classes namely Sub_class and Super_class, both have a method named display() with different implementations, and a variable named num with different values. We are invoking display() method of both classes and printing the value of the variable num of both classes, here you can observe that we have used super key word to differentiate the members of super class from sub class.
-Copy and paste the program in a file with name Sub_class.java.
+In the given program you have two classes namely Sub_class and Super_class, both have a method named display() with different implementations, and a variable named num with different values. We are invoking display() method of both classes and printing the value of the variable num of both classes, here you can observe that we have used super key word to differentiate the members of super class from sub class.<br />
+Copy and paste the program in a file with name Sub_class.java.<br />
 class Super_class{
 
    int num = 20;
@@ -356,20 +371,21 @@ public class Sub_class extends Super_class {
       
    }
 }
-Compile and execute the above code using the following syntax.
-javac Super_Demo
-java Super
-On executing the program you will get the following result −
-This is the display method of subclass
-This is the display method of superclass
-value of the variable named num in sub class:10
-value of the variable named num in super class:20
-Invoking Superclass constructor
-If a class is inheriting the properties of another class, the subclass automatically acquires the default constructor of the super class. But if you want to call a parametrized constructor of the super class, you need to use the super keyword as shown below.
-super(values);
-Sample Code
+Compile and execute the above code using the following syntax.<br />
+javac Super_Demo<br />
+java Super<br />
+On executing the program you will get the following result −<br />
+This is the display method of subclass<br />
+This is the display method of superclass<br />
+value of the variable named num in sub class:10<br />
+value of the variable named num in super class:20<br />
+
+**Invoking Superclass constructor**<br />
+If a class is inheriting the properties of another class, the subclass automatically acquires the default constructor of the super class. But if you want to call a parametrized constructor of the super class, you need to use the super keyword as shown below.<br />
+super(values);<br />
+**Sample Code**<br />
 The program given in this section demonstrates how to use the super keyword to invoke the parametrized constructor of the superclass. This program contains a super class and a sub class, where the super class contains a parametrized constructor which accepts a string value, and we used the super keyword to invoke the parametrized constructor of the super class.
-Copy and paste the below given program in a file with name Subclass.java
+Copy and paste the below given program in a file with name Subclass.java<br />
 class Superclass{
    
    int age;
@@ -396,7 +412,7 @@ public class Subclass extends Superclass {
    }
 
 }
-Compile and execute the above code using the following syntax.
+Compile and execute the above code using the following syntax.<br />
 javac Subclass
 java Subclass
 On executing the program you will get the following result −
@@ -496,21 +512,21 @@ public class Van extends Vehicle{
         private Speed sp;
 } 
 This shows that class Van HAS-A Speed. By having a separate class for Speed, we do not have to put the entire code that belongs to speed inside the Van class., which makes it possible to reuse the Speed class in multiple applications.
-In Object-Oriented feature, the users do not need to bother about which object is doing the real work. To achieve this, the Van class hides the implementation details from the users of the Van class. So basically what happens is the users would ask the Van class to do a certain action and the Van class will either do the work by itself or ask another class to perform the action.
-Types of inheritance
-There are various types of inheritance as demonstrated below.
+In Object-Oriented feature, the users do not need to bother about which object is doing the real work. To achieve this, the Van class hides the implementation details from the users of the Van class. So basically what happens is the users would ask the Van class to do a certain action and the Van class will either do the work by itself or ask another class to perform the action.<br />
+**Types of inheritance**<br />
+There are various types of inheritance as demonstrated below.<br />
  
 A very important fact to remember is that Java does not support multiple inheritance. This means that a class cannot extend more than one class. Therefore following is illegal −
 public class extends Animal, Mammal{} 
 However, a class can implement one or more interfaces. This has made Java get rid of the impossibility of multiple inheritance.
 
-POLYMORPHISM
-Polymorphism is the ability of an object to take on many forms. The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object.
-Any Java object that can pass more than one IS-A test is considered to be polymorphic. In Java, all Java objects are polymorphic since any object will pass the IS-A test for their own type and for the class Object.
-It is important to know that the only possible way to access an object is through a reference variable. A reference variable can be of only one type. Once declared, the type of a reference variable cannot be changed.
-The reference variable can be reassigned to other objects provided that it is not declared final. The type of the reference variable would determine the methods that it can invoke on the object.
-A reference variable can refer to any object of its declared type or any subtype of its declared type. A reference variable can be declared as a class or interface type.
-Example:
+**POLYMORPHISM**<br />
+Polymorphism is the ability of an object to take on many forms. The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object.<br />
+Any Java object that can pass more than one IS-A test is considered to be polymorphic. In Java, all Java objects are polymorphic since any object will pass the IS-A test for their own type and for the class Object.<br />
+It is important to know that the only possible way to access an object is through a reference variable. A reference variable can be of only one type. Once declared, the type of a reference variable cannot be changed.<br />
+The reference variable can be reassigned to other objects provided that it is not declared final. The type of the reference variable would determine the methods that it can invoke on the object.<br />
+A reference variable can refer to any object of its declared type or any subtype of its declared type. A reference variable can be declared as a class or interface type.<br />
+Example:<br />
 Let us look at an example.
 public interface Vegetarian{}
 public class Animal{}
@@ -526,9 +542,9 @@ Animal a = d;
 Vegetarian v = d;
 Object o = d;
 All the reference variables d,a,v,o refer to the same Deer object in the heap.
-Virtual Methods:
-In this section, I will show you how the behaviour of overridden methods in Java allows you to take advantage of polymorphism when designing your classes.
-We already have discussed method overriding, where a child class can override a method in its parent. An overridden method is essentially hidden in the parent class, and is not invoked unless the child class uses the super keyword within the overriding method.
+**Virtual Methods:**<br />
+In this section, I will show you how the behaviour of overridden methods in Java allows you to take advantage of polymorphism when designing your classes.<br />
+We already have discussed method overriding, where a child class can override a method in its parent. An overridden method is essentially hidden in the parent class, and is not invoked unless the child class uses the super keyword within the overriding method.<br />
 /* File name : Employee.java */
 public class Employee
 {
