@@ -51,7 +51,7 @@ public class RunEncap{
       EncapTest encap = new EncapTest();
       encap.setName("James");
       encap.setAge(20);
-      encap.setIdNum("12343ms");
+      encap.setIdNum("12343ms"); 
 
       System.out.print("Name : " + encap.getName() + " Age : " + encap.getAge());
     }
