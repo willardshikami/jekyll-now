@@ -23,7 +23,7 @@ Overall, there are eight main groups of tools available view Developer Tools:<br
 4. Sources. <br />
 5. Timeline. <br /> 
 6. Profiles. <br /> 
-7. Audits. <br /> 
+7. Audits. <br />  
 8. Console. <br /> 
 You can use the Ctrl+[ and Ctrl+] shortcuts to move between panels.<br />
 **Inspecting the DOM and styles**<br />
