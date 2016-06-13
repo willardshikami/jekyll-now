@@ -3,7 +3,8 @@ layout: post
 title: Chrome Developer Tools
 ---
 
-The Chrome Developer Tools (DevTools for short), are a set of web authoring and debugging tools built into Google Chrome. The DevTools provide web developers deep access into the internals of the browser and their web application. Use the DevTools to efficiently track down layout issues, set JavaScript breakpoints, and get insights for code optimization. <br />
+The Chrome Developer Tools (DevTools for short), are a set of web authoring and debugging tools built into Google Chrome. The DevTools provide web developers deep access into the internals of the browser and their web application.<br />
+Use the DevTools to efficiently track down layout issues, set JavaScript breakpoints, and get insights for code optimization. <br />
 **Accessing the DevTools**<br />
 To access the DevTools, open a web page or web app in Google Chrome. Either:<br />
 1. Select the Chrome menu  at the top-right of your browser window, then select Tools > Developer Tools. <br />
@@ -27,7 +28,7 @@ Overall, there are eight main groups of tools available view Developer Tools:<br
 8. Console. <br /> 
 You can use the Ctrl+[ and Ctrl+] shortcuts to move between panels.<br />
 **Inspecting the DOM and styles**<br />
-The Elements panel lets you see everything in one DOM tree, and allows inspection and on-the-fly editing of DOM elements. You will often visit the Elements tabs when you need to identify the snippet for some aspect of the page. For example, you may be curious if an image has an HTML id attribute and what the value is. <br />
+The Elements panel lets you see everything in one DOM tree, and allows inspection and on-the-fly editing of DOM elements.<br /> You will often visit the Elements tabs when you need to identify the snippet for some aspect of the page. For example, you may be curious if an image has an HTML id attribute and what the value is. <br />
 **Working with the Console**<br />
 The JavaScript Console provides two primary functions for developers testing web pages and applications. It is a place to:<br />
 1. Log diagnostic information in the development process. <br />

@@ -81,4 +81,4 @@ It is important to know that the only possible way to access an object is throug
 The reference variable can be reassigned to other objects provided that it is not declared final. The type of the reference variable would determine the methods that it can invoke on the object.<br />
 A reference variable can refer to any object of its declared type or any subtype of its declared type. A reference variable can be declared as a class or interface type.<br />
 
-This behavior is referred to as virtual method invocation, and the methods are referred to as virtual methods. All methods in Java behave in this manner, whereby an overridden method is invoked at run time, no matter what data type the reference is that was used in the source code at compile time.<br />
+This behavior is referred to as virtual method invocation, and the methods are referred to as virtual methods. All methods in Java behave in this manner, whereby an overridden method is invoked at run time, no matter what data type the reference is that was used in the source code at compile time.<br /> 
