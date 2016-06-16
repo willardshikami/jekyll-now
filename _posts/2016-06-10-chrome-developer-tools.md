@@ -3,7 +3,7 @@ layout: post
 title: Chrome Developer Tools
 ---
 
-The Chrome Developer Tools (DevTools for short), are a set of web authoring and debugging tools built into Google Chrome. The DevTools provide web developers deep access into the internals of the browser and their web application.<br />
+**The Chrome Developer Tools** (DevTools for short), are a set of web authoring and debugging tools built into Google Chrome.<br /> The DevTools provide web developers deep access into the internals of the browser and their web application.<br />
 Use the DevTools to efficiently track down layout issues, set JavaScript breakpoints, and get insights for code optimization. <br />
 **Accessing the DevTools**<br />
 To access the DevTools, open a web page or web app in Google Chrome. Either:<br />
@@ -30,14 +30,14 @@ You can use the Ctrl+[ and Ctrl+] shortcuts to move between panels.<br />
 **Inspecting the DOM and styles**<br />
 The Elements panel lets you see everything in one DOM tree, and allows inspection and on-the-fly editing of DOM elements.<br /> You will often visit the Elements tabs when you need to identify the snippet for some aspect of the page. For example, you may be curious if an image has an HTML id attribute and what the value is. <br />
 **Working with the Console**<br />
-The JavaScript Console provides two primary functions for developers testing web pages and applications. It is a place to:<br />
+The JavaScript Console provides two primary functions for developers testing web pages and applications.<br /> It is a place to:<br />
 1. Log diagnostic information in the development process. <br />
 2. A shell prompt which can be used to interact with the document and DevTools. <br />
 You may log diagnostic information using methods provided by the Console . Such as console.log() or console.profile(). <br />
 You can evaluate expressions directly in the console and use the methods provided by the Command Line API. These include $() command for selecting elements or profile() to start the profiler. <br />
  Console. 
 **Debugging JavaScript**<br />
-As the complexity of JavaScript applications increase, developers need powerful debugging tools to help quickly discover the cause of an issue and fix it efficiently. The Chrome DevTools include a number of useful tools to help make debugging JavaScript less painful. <br />
+As the complexity of JavaScript applications increase, developers need powerful debugging tools to help quickly discover the cause of an issue and fix it efficiently.<br /> The Chrome DevTools include a number of useful tools to help make debugging JavaScript less painful. <br />
 **Improving network performance**<br />
 The Network panel provides insights into resources that are requested and downloaded over the network in real time. Identifying and addressing those requests taking longer than expected is an essential step in optimizing your page. <br />
  
@@ -50,7 +50,7 @@ The Timeline panel gives you a complete overview of where time is spent when loa
  
 
 **JavaScript & performance**<br />
-The Profiles panel lets you profile the execution time and memory usage of a web app or page. These help you to understand where resources are being spent, and so help you to optimize your code. The provided profilers are: <br />
+The Profiles panel lets you profile the execution time and memory usage of a web app or page.<br /> These help you to understand where resources are being spent, and so help you to optimize your code. The provided profilers are: <br />
 1. The CPU profiler shows where execution time is spent in your page's JavaScript functions.<br />
 2. The Heap profiler shows memory distribution by your page's JavaScript objects and related DOM nodes.<br />
 3. The JavaScript profile shows where execution time is spent in your scripts <br />

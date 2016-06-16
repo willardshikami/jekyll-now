@@ -16,7 +16,7 @@ Numbers come in two basic kinds, Fields and Methods<br />
 
 **Objects/Instances** – These are actual piece of data in a class. <br />
 
-When we produce an instance from a class, that instance gets its own field that are different from the fields of all other instances and class.
+When we produce an instance from a class, that instance gets its own field that are different from the fields of all other instances and class.<br />
 
 **Encapsulation**<br /> 
 The fields of an object/instance should only be read and written by methods of that object class.<br />
@@ -53,7 +53,7 @@ In most languages, class member maybe accessed via instances of the class as if 
 Using a lot of class fields and class methods in your code makes it not fully Object Oriented, it is just procedural programming in disguise.<br />
 
 **Constructor**<br />
-A method that is run when we instantiate a class.
+A method that is run when we instantiate a class.<br />
 In most cases the constructor gives the fields initial default values while in other cases the constructor might do more complex things like running real code.<br />
 
 **Interface**<br />

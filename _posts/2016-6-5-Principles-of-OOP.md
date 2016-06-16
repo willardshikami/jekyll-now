@@ -33,7 +33,7 @@ If you want a class to contain a particular method but you want the actual imple
 abstract keyword is used to declare the method as abstract.<br />
 You have to place the abstract keyword before the method name in the method declaration.<br />
 An abstract method contains a method signature, but no method body.<br />
-Instead of curly braces an abstract method will have a semoi colon ( ; ) at the end.
+Instead of curly braces an abstract method will have a semoi colon ( ; ) at the end.<br />
 
 **INHERITANCE**
 Inheritance can be defined as the process where one class acquires the properties (methods and fields) of another. With the use of inheritance the information is made manageable in a hierarchical order.<br />
@@ -79,6 +79,6 @@ Polymorphism is the ability of an object to take on many forms. The most common 
 Any Java object that can pass more than one IS-A test is considered to be polymorphic. In Java, all Java objects are polymorphic since any object will pass the IS-A test for their own type and for the class Object.<br />
 It is important to know that the only possible way to access an object is through a reference variable. A reference variable can be of only one type. Once declared, the type of a reference variable cannot be changed.<br />
 The reference variable can be reassigned to other objects provided that it is not declared final. The type of the reference variable would determine the methods that it can invoke on the object.<br />
-A reference variable can refer to any object of its declared type or any subtype of its declared type. A reference variable can be declared as a class or interface type.<br />
+A reference variable can refer to any object of its declared type or any subtype of its declared type.<br /> A reference variable can be declared as a class or interface type.<br />
 
-This behavior is referred to as virtual method invocation, and the methods are referred to as virtual methods. All methods in Java behave in this manner, whereby an overridden method is invoked at run time, no matter what data type the reference is that was used in the source code at compile time.<br /> 
+This behavior is referred to as virtual method invocation, and the methods are referred to as virtual methods. <br /> All methods in Java behave in this manner, whereby an overridden method is invoked at run time, no matter what data type the reference is that was used in the source code at compile time.<br /> 

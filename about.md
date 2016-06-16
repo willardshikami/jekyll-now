@@ -12,4 +12,4 @@ You can contact me via my email or twitter profile.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[willardshikami@gmail.com](mailto:willardshikami@gmail.com)
