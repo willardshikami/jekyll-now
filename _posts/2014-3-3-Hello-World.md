@@ -4,6 +4,7 @@ title: Object Oriented Programming
 ---
 Object Oriented programming can be summed up as putting data before action.<br />
 On the other hand, in Procedural Programming, the problem is approached by disintegrating it into a series of actions also known as functions.<br />
+
 In Object Oriented Programming it is approached by first trying to disintegrate it into data types. <br />
 In Procedural Programming we think in terms of functions and later consider the actual data that the function act upon.<br />
 In Object Oriented Programming we come up with data types and the decide on the operations that need to be associated with those data types. <br />
