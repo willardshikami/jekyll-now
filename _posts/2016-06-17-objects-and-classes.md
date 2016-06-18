@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Principles of Objects and Classes
+title: Objects and Classes
 ---
 
 Java is an Object-Oriented Language. As a language that has the Object Oriented feature, Java supports the following fundamental concepts:<br />
