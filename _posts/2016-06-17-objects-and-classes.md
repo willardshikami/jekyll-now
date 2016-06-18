@@ -1,4 +1,8 @@
-**Objects and Classes**<br />
+---
+layout: post
+title: Principles of Objects and Classes
+---
+
 Java is an Object-Oriented Language. As a language that has the Object Oriented feature, Java supports the following fundamental concepts:<br />
 1. Polymorphism <br />
 2. Inheritance <br />
