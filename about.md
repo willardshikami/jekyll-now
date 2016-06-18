@@ -4,8 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I'm a bit tall <br />
 
+I like the color red <br />
+
+I'm currently a student at Moringa School learning to code :) <br />
 ### More Information
 
 You can contact me via my email or twitter profile.
