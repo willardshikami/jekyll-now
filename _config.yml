@@ -9,7 +9,7 @@ name: Willard's Blog
 description: Developer from Kenya
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: hhttps://avatars1.githubusercontent.com/u/19610673?v=3&u=f6c5795af7df5c4e6cf20c5ca5dacae11ce47293&s=140
+avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/willard.jpeg
 
 #
 # Flags below are optional
@@ -18,7 +18,7 @@ avatar: hhttps://avatars1.githubusercontent.com/u/19610673?v=3&u=f6c5795af7df5c4
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: willardshikami@gmail.com
   facebook:
   flickr:
   github: willardshikami 
