@@ -6,6 +6,8 @@ permalink: /about/
 
 I'm a bit tall <br />
 
+I watch alot of Anime <br />
+
 I like the color red <br />
 
 I'm currently a student at Moringa School learning to code :) <br />
