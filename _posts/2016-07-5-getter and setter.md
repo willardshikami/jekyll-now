@@ -3,7 +3,6 @@ layout: post
 title: Getter and Setter
 ---
 
-
 Encapsulation is among four of the fundamental of OOP in java. It involves hiding variables of a specific class from other classes.<br /> These variables can only be accessed through methods in their current class. <br />
 
 The following example shows how achieve encapsulation
